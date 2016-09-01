@@ -1,0 +1,95 @@
+*:not(input) {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	min-height: 500px;
+	min-width: 1200px;
+}
+
+#lixin_one {
+	width: 70%;
+	height: 50%;
+	margin: auto;
+	margin-top: 30px;
+	padding-bottom: 1px;
+	border: 1px solid #000;
+}
+
+#lixin_one_1 {
+	position: relative;
+	border-style: "微软雅黑";
+	font-size: 30px;
+	top: 5%;
+	font-weight: bold;
+}
+
+#lixin_one_2 {
+	position: relative;
+	width: 40px;
+	border-style: solid;
+	float: right;
+	cursor: pointer;
+	right: 4%;
+	border-radius: 3px;
+}
+
+#lixin_one_3 {
+	margin-left: 4%;
+}
+
+#lixin_tow {
+	width: 70%;
+	height: 30%;
+	margin-left: 12%;
+}
+
+#lixin_tow_1 {
+	left: 4%;
+}
+
+#lixin_tow_2 {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+#lixin_tow_2_2 {
+	width: 150px;
+	height: 24px;
+	border: 1px solid #aaa;
+}
+
+#lixin_tow_2_3 {
+	margin-left: 10%;
+}
+
+#lixin_tow_3 {
+	list-style: none;
+	margin-left: 12%;
+}
+
+.lixin_tow_4 {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+#lixin_tow_5 {
+	position: relative;
+	width: 40px;
+	height: 25px;
+	border-radius: 3px;
+	border-style: solid;
+	float: right;
+	right: 4%;
+	top: -20px;
+	cursor: pointer;
+}

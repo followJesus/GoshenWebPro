@@ -1,0 +1,26 @@
+package study.gaosheng.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import study.gaosheng.domain.Professional;
+import study.gaosheng.repository.ProfessionalRepository;
+@Transactional
+@Service
+public class ProfessionalServiceImpl implements ProfessionalService{
+
+	@Autowired
+	private ProfessionalRepository professionalRepository;
+
+	@Override
+	public boolean professionalSave(Professional professional) {
+		professional = professionalRepository.save(professional);
+		boolean saved = false;
+		if (professional != null) {
+			saved = true;
+		}
+		return saved;
+	}
+	
+}

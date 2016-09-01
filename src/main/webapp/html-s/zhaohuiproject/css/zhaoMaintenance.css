@@ -1,0 +1,130 @@
+*:not(input) {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	min-width: 1000px;
+	min-height:620px;
+	font-family: "Microsoft YaHei";
+}
+
+#zhao_tenance_content {
+	width: 80%;
+	height: 90%;
+	margin: auto;
+	border: 2px solid #333;
+	position:relative;
+	top:5%;
+}
+
+#zhao_tenance_select {
+	width: 250px;
+	height: 23px;
+	border: 1px solid #aaaaaa;
+}
+
+#zhao_tenance_input {
+	width: 150px;
+	height: 23px;
+}
+
+#zhao_tenance_ret_btn {
+	width: 50px;
+	height: 25px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#zhao_tenance_sel_btn {
+	width: 50px;
+	height: 25px;
+	border-radius: 3px;
+	margin-top: 120px;
+	cursor: pointer;
+}
+
+#zhao_tenance_important {
+	width: 88%;
+	height: 60%;
+	margin-left: 5%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: 2%;
+}
+
+#zhao_tenance_left {
+	flex: 1;
+}
+
+#z_tenance_left_peo {
+	height: 90%;
+	border: 1px solid #000000;
+	overflow-y: scroll;
+}
+
+#zhao_tenance_center {
+	flex: 1.6;
+}
+
+#zhao_tenance_center ul {
+	height: 100%;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+#zhao_tenance_center ul li {
+	flex: 1;
+	margin: auto;
+	margin-top: 40px;
+}
+
+#zhao_tenance_right {
+	flex: 1;
+}
+
+#z_tenance_right_peo {
+	height: 90%;
+	border: 1px solid #000000;
+	overflow-y: scroll;
+}
+
+.z_tenance_fourbtn {
+	width: 70px;
+	height: 25px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#z_tenance_nextbtn {
+	width: 60px;
+	height: 25px;
+	margin-top: 5px;
+	margin-left: 4px;
+	cursor:pointer;
+	border-radius:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

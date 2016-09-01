@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>root_preserve.html</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="../css/root_preserve.css">
+
+</head>
+
+<body>
+<div id="zhaoyang_root_preserve_container">
+	<div style="flex:0.2;"></div>
+	<div id="zhaoyang_root_preserve_top">
+		<label><strong>管理员权限管理>>权限维护</strong></label>
+		<button id="zhaoyang_root_preserve_return_btn">返回</button>
+		<div style="height: 40px;"></div>
+		<p>为【林鹏】等两名管理员授权</p>
+		<div style="height: 20px;"></div>
+		<p>按住ctrl或shift键，点击鼠标，可以添加或移除多个权限</p>
+		<div style="height: 40px;"></div>
+	</div>
+	
+	<div id="zhaoyang_root_preserve_context">
+		<div style="flex:2;display: flex;flex-direction:column;">
+			<div style="flex:1">--请选择权限--</div>
+			<div style="border: 2px solid #aaa;flex:5;overflow: auto;">
+				<ul id="zhaoyang_root_preserve_context_l_ul">
+					<li>a</li>
+					<li>b</li>
+					<li>c</li>
+					<li>教学情况报表</li>
+				</ul>
+			</div>
+		</div>
+		<div style="flex:1;">
+		<ul style="display: flex;flex-direction:column;list-style: none;width: 100%;height: 100%;text-align: center;">
+			<li style="flex:1;"></li>
+			<li style="flex:1;"><button id="zhaoyang_root_preserve_context_add_btn"class="btn_class">添&nbsp;加</button></li>
+			<li style="flex:1;"></li>
+			<li style="flex:1;"><button id="zhaoyang_root_preserve_context_addall_btn"class="btn_class">全部添加</button></li>	
+		</ul>
+		</div>
+		<div style="flex:2;display: flex;flex-direction:column;">
+			<div style="flex:1">--追加权限--</div>
+			<div style="border: 2px solid #aaa;flex:5;overflow: auto;">
+				<ul id="zhaoyang_root_preserve_context_r_ul">
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div style="flex:0.5;"></div>
+</div>	
+<div id="zhaoyang_root_preserve_context_out">
+	<div style="height: 10%;background-color: #05a4de"></div>
+	<div style="height: 80%;">
+		<input type="checkbox"/><label>培训包</label>
+		<input type="checkbox"/><label>老年教育</label>
+		<input type="checkbox"/><label>干部在线</label>
+		<input type="checkbox"/><label>基础教育</label>
+		<input type="checkbox"/><label>普通高校</label><br>
+		<input type="checkbox"/><label>技能培训</label>
+		<input type="checkbox"/><label>定向培训</label>
+		<input type="checkbox"/><label>继续教育</label>
+		<input type="checkbox"/><label>其他</label>
+		<input type="checkbox"/><label>经济学</label><br>
+		<input type="checkbox"/><label>法学</label>
+		<input type="checkbox"/><label>教育学</label>
+		<input type="checkbox"/><label>文学</label>
+		<input type="checkbox"/><label>理学</label>
+		<input type="checkbox"/><label>工学</label><br>
+		<input type="checkbox"/><label>农学</label>
+		<input type="checkbox"/><label>医学</label>
+		<input type="checkbox"/><label>管理学</label>
+		<input type="checkbox"/><label>制造大类</label>
+		<input type="checkbox"/><label>旅游大类</label><br>
+		<input type="checkbox"/><label>文化教育大类</label>
+		<input type="checkbox"/><label>艺术设计传媒大类</label>
+		<input type="checkbox"/><label>生化与药品大类</label>
+		<input type="checkbox"/><label>资源开发与测绘大类</label>
+		<input type="checkbox"/><label>公共事业大类</label><br>
+		<input type="checkbox"/><label>其他</label>
+		</div>
+	<div style="float:right;">
+		<button class="btn_class">确定</button>
+		<button class="btn_class">取消</button>
+	</div>
+</div>
+</body>
+<script type="text/javascript"src="../js/root_preserve.js"></script>
+</html>

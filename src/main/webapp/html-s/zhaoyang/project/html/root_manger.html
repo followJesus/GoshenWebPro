@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>root_manger.html</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="../css/root_manger.css">
+
+</head>
+
+<body>
+	<div id="zhaoyang_root_manger_container">
+		<div id="zhaoyang_root_manger_top">
+			<p>
+				<strong>管理员权限管理</strong>
+			</p>
+		</div>
+		<div style="width: 98%;margin: auto;">
+			<p>查询条件</p>
+			<div style="width: 90%;margin: auto;padding-top: 10px;">
+				<label>单位级别</label>
+				 <select style="width: 50px;height: 26px;margin-right: 60px;border: 1px solid #000;">
+					<option>一级</option>
+				</select> 
+				<label>单位名称</label> 
+				<select style="width: 400px;height: 26px;border: 1px solid #000;">
+					<option>全部</option>
+				</select><br> 
+					<div style="height: 20px;"></div>
+				<label>姓&nbsp;&nbsp;名</label><input id="zhaoyang_root_manger_txt"type="text" />
+			</div>
+			<button id="zhaoyang_root_manger_query_btn">查询</button>
+			<br>
+			<button id="zhaoyang_root_manger_btn">批量授权</button>
+
+			<div
+				style="width: 90%;height: 2px;background-color: #000;margin: auto;"></div>
+			<div style="width: 90%;margin: auto;display: flex;flex-direction:row">
+				<div style="flex:1;text-align: center;">
+					<input type="checkbox"><label>序号</label>
+				</div>
+				<div style="flex:1;text-align: center;">
+					<label>姓名</label>
+				</div>
+				<div style="flex:2;text-align: center;">
+					<label>单位</label>
+				</div>
+				<div style="flex:1;text-align: center;">
+					<label>操作</label>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../js/root_manger.js"></script>
+</html>

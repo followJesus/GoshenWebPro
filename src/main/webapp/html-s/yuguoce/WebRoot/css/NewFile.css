@@ -1,0 +1,130 @@
+@CHARSET "utf-8";
+#yu_guo_ce
+{
+	width: 100%;
+    height:100%;
+}
+
+#accredit_yu
+{
+	width: 90%;
+	height:70%;
+	margin:auto;
+	border: 3px solid #000;
+	display: flex;
+	flex-direction: column;
+}
+
+#nav_yu
+{
+	flex:1;
+	width:95%;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #ccc;
+	
+	
+	
+}
+
+.nav_head_yu
+{
+	flex:1;
+	line-height: 40px;
+	
+}
+
+#nav_course_yu
+{
+	text-decoration: none;
+	color:#000;
+}
+#return_btn_yu
+{
+	float: right;
+	margin-top: 13px;
+	border-radius: 2px;
+}
+
+#binding_inquire_yu
+{
+	flex:1;
+	width: 89%;
+	margin: auto;
+}
+
+#binding_inquire_yu p
+{
+	margin-top: 13px;
+}
+
+#binding_inquire_yu label
+{
+	margin-top: 13px;
+}
+
+#binding_inquire_yu input
+{
+	border: 1px solid #000;
+	margin-top: 13px;
+	padding:2px;
+}
+
+#binding_inquire_yu button
+{
+	float: right;
+}
+
+#binding_result_yu
+{
+	flex:3;
+	display: flex;
+	flex-direction: column;
+}
+
+.black_yu
+{
+	width: 95%;
+	height:2px;
+	margin:auto;
+	background: #000;
+	margin-top:13px
+}
+
+.binding_style_yu
+{
+	width: 95%;
+	margin:auto;
+	margin-top:13px
+}
+
+.binding_user_yu
+{
+	margin-top:13px
+}
+
+.binding_tr_yu
+{
+	margin-right: 20px;
+}
+
+.binding_td_yu
+{
+	margin-right: 80px;
+	display: inline-block;
+}
+
+#binding_not_yu
+{
+	flex:1;
+	width:95%;
+	margin:auto;
+}
+
+#binding_ok_yu
+{
+	flex:1;
+	width:95%;
+	margin:auto;
+}

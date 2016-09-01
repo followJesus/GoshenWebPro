@@ -1,0 +1,48 @@
+package goshen.education.web;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import goshen.education.domain.Customer;
+import goshen.education.service.CustomerService;
+
+/**
+ * Created by zhangcunli on 2016/7/4.
+ */
+@Controller
+public class GreetingController {
+
+	@Autowired
+	private CustomerService customerService;
+
+//	@RequestMapping("/greeting")
+//	public String greeting(@RequestParam(value = "name", required = false, defaultValue = "World") String name,
+//			Model model) {
+//		System.out.print("------------------" + name);
+//		model.addAttribute("name", name);
+//		return "greeting";
+//	}
+
+	@RequestMapping("/ok")
+	public String greeting5(@RequestParam(value = "name", required = false, defaultValue = "World") String name,
+			Model model) {
+		System.out.print("------------------" + name+"\n\n");
+
+		List<Customer> customers = customerService.findByLastNameService(name);
+
+		for (Customer customer : customers) {
+			System.out.println("---------haliluya------- " + customer.toString());
+		}
+
+		model.addAttribute("name", name);
+		model.addAttribute("customers", customers);
+
+		return "ok2";
+	}
+
+}

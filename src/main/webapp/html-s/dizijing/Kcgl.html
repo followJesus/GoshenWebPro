@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kcgl.html</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta charset="UTF-8">
+
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#dzj_zhengti {
+	width: 90%;
+	height: 80%;
+	margin: auto;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	display: flex;
+	flex-direction: column;
+}
+
+#dzj_biaotou {
+	flex: 0.5;
+}
+
+#dzj_zi1 {
+	font-size: 1.8rem;
+	font-family: "微软雅黑";
+	line-height: 78px;
+}
+
+#dzj_chaxun {
+	float: right;
+	width: 80px;
+	height: 35px;
+	font-size: 1.1rem;
+	margin-right: 20px;
+	border-radius: 7px;
+}
+
+.dzj_zi2 {
+	font-size: 1.5rem;
+	font-family: "微软雅黑";
+}
+
+#dzj_zhong {
+	flex: 0.9;
+	margin-top: 30px;
+	width: 100%;
+}
+
+#dzj_xinjian {
+	flex: 0.4;
+	width: 100%;
+}
+
+#dzj_xinjian_anniu {
+	width: 80px;
+	height: 35px;
+	font-size: 1.1rem;
+	margin-top: 15px;
+	margin-left: 60px;
+	border-radius: 7px;
+}
+
+#dzj_xia {
+	flex: 2.5;
+	width: 100%;
+}
+
+#dzj_kcxx {
+	width: 98%;
+	height: 93%;
+	margin: auto;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.dzj_zi3 {
+	font-size: 1.3rem;
+	font-family: "微软雅黑";
+}
+
+#dzj_shuru {
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	outline: none;
+}
+
+#dzj_xialalan {
+	width: 200px;
+	height: 28px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 3px;
+	font-size: 1.0rem;
+}
+
+#dzj_biaoge {
+	width: 98%;
+	height: 60px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	line-height: 60px;
+	text-align: center;
+}
+
+#dzj_biaoge1 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge2 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge3 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge4 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge5 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge6 {
+	flex: 2;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge1_nr1 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge2_nr2 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge3_nr3 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge4_nr4 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge5_nr5 {
+	flex: 1;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#dzj_biaoge6_nr6 {
+	flex: 2;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+.dzj_biaoge6_nr6_anniu {
+	width: 90px;
+	height: 35px;
+	font-size: 1.1rem;
+	border-radius: 7px;
+}
+</style>
+</head>
+
+<body>
+	<div id="dzj_zhengti">
+		<div id="dzj_biaotou">
+			<label id="dzj_zi1" style="margin-left: 10px;">考次管理</label>
+		</div>
+		<div style="width:98%;height:1px; background-color:gray;margin: auto;"></div>
+		<div id="dzj_zhong">
+			<div id="dzj_kcxx">
+				<label class="dzj_zi2" style="margin-left: 5px;">查询条件</label> <br />
+				<br /> <br />
+				<div id="dzj_MC_RQ">
+					<ul>
+						<li class="dzj_zi3" style="list-style: none;margin-left: 40px;">考试名称
+							<select id="dzj_xialalan">
+								<option>津南分校</option>
+								<option>津东分校</option>
+								<option>津西分校</option>
+								<option>津北分校</option>
+						</select>
+						</li>
+					</ul>
+					<div style="margin-top: -30px;float: left;">
+						<label style="margin-left: 600px;"></label> <label class="dzj_zi3">考试日期</label>
+						<input id="dzj_shuru" type="text"
+							style="width: 200px; height: 23px;" />
+					</div>
+					<input id="dzj_chaxun" type="button" value="查询" />
+				</div>
+			</div>
+			<br />
+		</div>
+		<div id="dzj_xinjian">
+			<input id="dzj_xinjian_anniu" type="button" value="新建" />
+
+		</div>
+		<div
+			style="width:98%;height:3px; background-color:black;margin: auto;"></div>
+		<div id="dzj_xia">
+			<div>
+				<ul id="dzj_biaoge" class="dzj_zi3">
+					<li id="dzj_biaoge1">考点</li>
+					<li id="dzj_biaoge2">考试日期</li>
+					<li id="dzj_biaoge3">考试场次</li>
+					<li id="dzj_biaoge4">验证码</li>
+					<li id="dzj_biaoge5">状态</li>
+					<li id="dzj_biaoge6">操作</li>
+				</ul>
+			</div>
+
+			<div>
+				<ul id="dzj_biaoge" class="dzj_zi3">
+					<li id="dzj_biaoge1_nr1">津南分校</li>
+					<li id="dzj_biaoge2_nr2">2014-12-27</li>
+					<li id="dzj_biaoge3_nr3">10：00-11：00</li>
+					<li id="dzj_biaoge4_nr4">524821</li>
+					<li id="dzj_biaoge5_nr5">开启</li>
+					<li id="dzj_biaoge6_nr6"><input class="dzj_biaoge6_nr6_anniu"
+						type="button" value="删除" />&nbsp&nbsp&nbsp <input
+						class="dzj_biaoge6_nr6_anniu" type="button" value="编辑" />&nbsp&nbsp&nbsp
+						<input class="dzj_biaoge6_nr6_anniu" type="button" value="考务管理" /></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

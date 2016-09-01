@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="/css/demo.css" type="text/css" media="all" />
+</head>
+<body>
+
+<div th:replace="layout/layout :: copy"></div>
+
+
+    <div th:replace="layout/layout :: #header"></div>
+    
+    
+    这是网站中间部分  th:replace   th:include
+    
+    
+    
+    <p th:text="'Hello , ' + ${name} + '!'" />
+    
+     <ul th:each="customer,customerStat : ${customers}">
+    <li th:text="${customer.id}">id</li>
+    <li th:text="${customer.firstName}">firstName</li>
+    <li th:text="${customer.lastName}">lastName</li>
+    <li>-------</li>
+    </ul>
+    
+    
+    
+    <div th:include="layout/layout :: #footer"></div>
+    
+    
+</body>
+</html>

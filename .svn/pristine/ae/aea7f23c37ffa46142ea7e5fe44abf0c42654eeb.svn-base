@@ -1,0 +1,60 @@
+package goshen.education.web;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.google.gson.Gson;
+
+import goshen.education.domain.Professional;
+import goshen.education.domain.netpackage.NetPackage;
+import goshen.education.domain.netpackage.ProfessionalFindPackage;
+import goshen.education.service.ProfessionalService;
+import goshen.education.utils.Tools;
+
+@RestController
+public class ProfessionalController {
+	
+	@Autowired
+	private ProfessionalService professionalService;
+    
+	@RequestMapping("/hello")
+    public String saveProfessional66(Professional professional) {
+    	
+    	System.out.println("-----hello------- ");
+    	
+    	
+    Gson gson = new Gson();
+    	
+    	
+    	return "hello788";
+    }
+	@RequestMapping("/professional/find")
+    public String findProfessional(NetPackage npackage) {
+    	String json=npackage.getJson();
+    	ProfessionalFindPackage pa=Tools.fromJson(json, ProfessionalFindPackage.class);
+    	
+    	System.out.println("-----------"+pa.getScoolName());
+    	
+    	return "{findProfessional}";
+    }
+
+    
+	@RequestMapping("/saveProfessional")
+    public String saveProfessional(Professional professional) {
+    	
+    	System.out.println("-----getProName------- "+professional.getProName());
+    	System.out.println("-------getProCode----- "+professional.getProCode());
+    	System.out.println("------getXueli------ "+professional.getXueli());
+    	System.out.println("------getProState------ "+professional.getProState());
+    	System.out.println("-----getCompany------- "+professional.getCompany());
+    	
+    	
+    	boolean bl = professionalService.professionalSave(professional);
+    	
+    	System.out.println("------bl------ "+bl);
+    	
+    	return "ok";
+    }
+    
+}

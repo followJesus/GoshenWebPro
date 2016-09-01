@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#Fx_cheek {
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	border: 2px;
+	border-style: solid;
+	display: flex;
+	flex-direction: column;
+}
+
+#Fx_frame_one {
+	flex: 1;
+}
+
+#Fx_frame_two {
+	flex: 3;
+}
+
+#Fx_title_one {
+	position: relative;
+	left: 1%;
+	font-size: 2rem;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+#Fx_title_two {
+	position: relative;
+	left: 2%;
+	font-size: 1.5rem;
+}
+
+#Fx_table{
+	border: 2px;
+	border-style: solid;
+	border-color: #bbbbbb;
+	width: 95%;
+	height: 100px;
+	line-height: 100px;
+	margin: auto;
+}
+
+#Fx_font_one {
+	position: relative;
+	left: 5%;
+	font-weight: bold;
+}
+
+#Fx_font_two {
+	position: relative;
+	left: 10%;
+	font-weight: bold;
+}
+
+#Fx_textone {
+	width: 20%;
+	height: 20px;
+	position: relative;
+	left: 6%;
+	border: 2px;
+	border-radius: 2px 2px;
+	border-color: #bbbbbb;
+	border-style: solid;
+}
+
+#Fx_texttwo {
+	width: 20%;
+	height: 20px;
+	position: relative;
+	left: 11%;
+	border: 2px;
+	border-radius: 2px 2px; border-color : #bbbbbb;
+	border-style: solid;
+	border-color: #bbbbbb;
+}
+
+#Fx_button_one {
+	width: 40px;
+	height: 25px;
+	position: relative;
+	left: 11%;
+	border-radius: 2px 2px;
+}
+
+#Fx_button_two {
+	width: 40px;
+	height: 25px;
+	position: relative;
+	left: 11%;
+	border-radius: 2px 2px;
+}
+#FX_rim{
+	width: 90%;
+	height: 95%;
+	border: 1px;
+	margin:auto;
+	position:relative;
+	top:3px;
+	border-color:#bbbbbb;
+	border-style: solid;
+}
+#Fx_edgingone{
+	width: 100%;
+	height: 20%;
+}
+#Fx_edgingtwo{
+	width: 100%;
+	height: 74%;
+	overflow-y: scroll;
+	border-top:1px solid #bbbbbb;
+	border-bottom:1px solid #bbbbbb;
+	background-color: #bbbbbb;
+}
+#Fx_edgingthree{
+	width: 100%;
+	height: 6%;
+}
+table {
+	width: 98%;
+	height:100%;
+	border-right:1px solid #bbbbbb;
+	border-color:#bbbbbb;
+	border-collapse: collapse;
+	border-spacing:0; 
+	text-align: center;
+	
+}
+
+.tr1 {
+	width: 100%;
+	height: 15%;
+}
+td{
+	font-weight:bold;
+	border-right:  1px dashed #bbbbbb;
+	border-bottom:  1px dashed #bbbbbb;
+}
+#Fx_textbox{
+	border:1px solid #bbbbbb;
+	outline:none;
+	width: 40px;
+	height: 20px;
+}

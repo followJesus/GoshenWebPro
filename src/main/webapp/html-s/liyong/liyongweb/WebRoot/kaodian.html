@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>考点管理</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta charset="UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+<link rel="stylesheet" type="text/css" href="css/chushi.css">
+<link rel="stylesheet" type="text/css" href="css/liyong3.css">
+
+</head>
+<body>
+
+	<div id="liyong_bian">
+	<div id="yihang">
+	<label style="line-height: 90px; font-weight: bold;font-size: 1.7rem;margin-left: 8px;">考点管理</label>
+	</div>
+	<div id="erhang">
+	<input id="liyong_xinjian" type="button" value="新建" />
+	<input id="liyong_shanchu" type="button" value="删除" />
+	<div style="width:97%;height:3px; background-color:#000000;margin: 0 auto;margin-top: 10px;"></div>
+	</div>
+	<div id="sanhang">
+	
+	<div id="liyong_title">	
+       <ul>
+       <li style="flex:2;">考点名称
+       <input id="xianzhe"type="checkbox"/>
+       </li>
+       <li style="flex:2;">单位</li>      
+       <li style="flex:1;">容纳人数</li>
+       <li style="flex:1.2;">操作</li>
+       </ul>
+	</div>
+	
+	
+	<div id="liyong_title_xia">
+	<div id="xia_tianjia">	
+       <ul>
+       <li style="flex:2;">滨海学院1
+       <input id="xianzhe1"type="checkbox"/>
+       </li>
+       <li style="flex:2;">天力士</li>      
+       <li style="flex:1;">40</li>
+       <li style="flex:1.2;">
+       <input class="xia_button"type="button" value="编辑" />
+	   <input class="xia_button"type="button" value="考场维护" />
+       </li>
+       </ul>
+       
+       
+       <ul>
+       <li style="flex:2;">河西考点
+       <input id="xianzhe1"type="checkbox"/>
+       </li>
+       <li style="flex:2;">河西直属 , 西一 ,  西二</li>      
+       <li style="flex:1;">120</li>
+       <li style="flex:1.2;">
+       <input class="xia_button"type="button" value="编辑" />
+	   <input class="xia_button"type="button" value="考场维护" />
+       </li>
+       </ul>
+       
+       <ul>
+       <li style="flex:2;">津南分校
+       <input id="xianzhe1"type="checkbox"/>
+       </li>
+       <li style="flex:2;">津南直属</li>      
+       <li style="flex:1;">89</li>
+       <li style="flex:1.2;">
+       <input class="xia_button"type="button" value="编辑" />
+	   <input class="xia_button"type="button" value="考场维护" />
+       </li>
+       </ul>
+       
+       <ul>
+       <li style="flex:2;">天津广播电视大学
+       <input id="xianzhe1"type="checkbox"/>
+       </li>
+       <li style="flex:2;">文法直属 , 理工直属 , 滨海学院1</li>      
+       <li style="flex:1;">120</li>
+       <li style="flex:1.2;">
+       <input class="xia_button"type="button" value="编辑" />
+	   <input class="xia_button"type="button" value="考场维护" />
+       </li>
+       </ul>
+       
+       
+       <ul>
+       <li style="flex:2;">南开分校
+       <input id="xianzhe1"type="checkbox"/>
+       </li>
+      <li style="flex:2;">南开直属</li>      
+       <li style="flex:1;">80</li>
+       <li style="flex:1.2;">
+       <input class="xia_button"type="button" value="编辑" />
+	   <input class="xia_button"type="button" value="考场维护" />
+       </li>
+       </ul>
+       
+       <ul>
+       <li style="flex:2;">北辰分校
+       <input id="xianzhe1"type="checkbox"/>
+       </li>
+       <li style="flex:2;">北辰直属</li>      
+       <li style="flex:1;">50</li>
+       <li style="flex:1.2;">
+       <input class="xia_button"type="button" value="编辑" />
+	   <input class="xia_button"type="button" value="考场维护" />
+       </li>
+       </ul>
+       
+       
+       <ul>
+       <li style="flex:2;">财贸分校
+       <input id="xianzhe1"type="checkbox"/>
+       </li>
+       <li style="flex:2;">财贸直属</li>      
+       <li style="flex:1;">80</li>
+       <li style="flex:1.2;">
+       <input class="xia_button"type="button" value="编辑" />
+	   <input class="xia_button"type="button" value="考场维护" />
+       </li>
+       </ul>
+            
+	</div>
+	</div>
+	</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+
+    var liyong_shanchu = document.getElementById("liyong_shanchu");
+    var liyong_title_xia = document.getElementById("liyong_title_xia");
+      liyong_shanchu.onclick=function(){
+           alert("您确定要删除吗?");   
+           liyong_title_xia.style.display="none";    
+      }
+      
+</script>
+</html>

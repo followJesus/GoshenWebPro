@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maintenance.html</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="cdx_Maintenance.css">
+
+</head>
+
+<body>
+	<div id="maintenance">
+		<div id="title_top">
+			<div>
+				<h4>考点管理>>考场维护>>新建考场</h4>
+			</div>
+			<div id="title_top_btn">返回</div>
+		</div>
+
+		<div id="content">
+
+			<div>
+				<div id="content_top1">
+					<label>考点【滨海学院1】</label>
+				</div>
+			</div>
+
+			<div>
+				<div id="content_top2">
+					<label>考场信息</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="bottom">
+			<div id="find">
+				<div id="find_top">
+					<div id="find_top1">
+						考场名称: <input class="find_size1" type="text" value="" />*
+					</div>
+					<div id="find_top2">
+						容纳人数: <input class="find_size1" type="text" value="find" />*
+					</div>
+				</div>
+
+				<div id="find_bottom">
+					<div style="float: left;">
+						考场位置: <input class="find_size2" type="text" value="" />*
+					</div>
+					<div id="find_bottom2"
+						style="width: 50px; height: 25px; background-color: #dddddd;float: right;text-align: center;">保存</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+var btn2 = document.getElementById("find_bottom2")
+	btn2.onclick=function(){
+		window.location="EditMaintenance.html";
+	}
+
+</script>
+
+</html>

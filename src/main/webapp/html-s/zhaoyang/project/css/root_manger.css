@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#zhaoyang_root_manger_container{
+	width: 90%;
+	margin: auto;
+	border:2px solid #aaa;
+}
+#zhaoyang_root_manger_top{
+	width: 98%;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	
+}
+#zhaoyang_root_manger_btn{
+	width: 90px;
+	height: 30px;
+	background-color: #05a4de;
+	cursor: pointer;
+	margin-bottom: 20px;
+	color:#fff;
+}
+
+#zhaoyang_root_manger_query_btn{
+	width: 60px;
+	height: 30px;
+	background-color: #05a4de;
+	float: right;
+	cursor: pointer;
+	color:#fff;
+}
+
+#zhaoyang_root_manger_txt{
+	width: 300px;
+	height: 26px;
+	margin-left: 8px;
+	border: 1px solid #000;
+}
+
+@media screen and (max-width:900px) {
+	#zhaoyang_root_manger_container{
+	width: 900px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

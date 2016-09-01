@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta charset="UTF-8">
+
+<style type="text/css">
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	min-width: 1000px;
+	min-height: 800px
+}
+
+#div {
+	width: 80%;
+	height: 90%;
+	margin: auto;
+	border: solid;
+}
+
+#top {
+	height: 25%;
+	width: 99%;
+	margin: auto;
+	margin-top: 1%;
+	border:1px solid;
+}
+
+#bottm {
+	height: 65%;
+	width: 96%;
+	margin: auto;
+	margin-top: 1%;
+	border: 1px solid;
+	overflow: auto;
+}
+
+#top_1 {
+	width: 99%;
+	height: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	margin-left: 2%;
+}
+
+#left {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+#left div {
+	display: flex;
+	margin-top: 10px;
+}
+
+#right {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	float: right;
+	margin-left: 5%;
+}
+
+#right_nei1 {
+	width: 80%;
+	height: 100%;
+	margin-top: 10px;
+}
+
+#right_nei2 {
+	width: 15%;
+	height: 80%;
+	float: right;
+}
+
+#bottm ul {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 10%;
+	list-style: none;
+}
+
+#bottm ul li {
+	border: 1px dashed;
+	border-top:0; 
+	border-left:0; 
+}
+</style>
+</head>
+
+<body>
+	<div id="div">
+		<label>查询条件</label>
+		<div id="top">
+			<div id="top_1">
+				<div id="left">
+					<div>
+						<label>学&nbsp&nbsp校</label><select style="width:80%;"><option>全部</option>
+						</select>
+					</div>
+					<div>
+						<label>教学计划</label><select style="width:40%;"><option>全部</option>
+						</select>
+					</div>
+					<div>
+						<label>平时成绩</label><select style="width:20%;"><option>全部</option>
+						</select>
+					</div>
+
+				</div>
+				<div id="right">
+					<div id="right_nei1">
+						<div>
+							<label>专业</label><select style="width:90%;"><option>全部</option>
+							</select>
+
+						</div>
+						<div style="margin-top:10px;">
+							<label>学号</label><input type="text">
+						</div>
+					</div>
+					<div id="right_nei2">
+						<input id="findbtn" style="height:50%;width:100%;" type="button" value="查询">
+						<input style="height:50%;width:100%;" type="button" value="导出">
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+		<div id="bottm">
+			<ul id="ul">
+				<li style="flex:1">姓名</li>
+				<li style="flex:2">学号</li>
+				<li style="flex:1.5">所在单位</li>
+				<li style="flex:3">课程名称</li>
+				<li style="flex:1">跨专业选课</li>
+				<li style="flex:1">平时成绩</li>
+				<li style="flex:1">结果成绩</li>
+				<li style="flex:1">最终成绩</li>
+				<li style="flex:1">综合成绩</li>
+				<li style="flex:1">状态</li>
+
+			</ul>
+		</div>
+	</div>
+
+
+</body>
+<script type="text/javascript">
+	var findbtn=document.getElementById("findbtn");
+	findbtn.onclick=function(e)
+	{
+	    var pobj={};
+	    pobj.scoolName="学校";
+	    pobj.professionalName="专业";
+	    pobj.educationPlan="教学计划";
+	    pobj.studentId="学号";
+	    pobj.score="98";
+	    var jsondata=parent.stringifyJson(pobj);
+		parent.sendJsonData("/professional/find","type=1&json="+jsondata,function(obj)
+		{
+			alert(obj);
+		});
+	}
+	
+	
+	
+</script>
+</html>

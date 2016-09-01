@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>zhaomaintenance.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="css/zhaoMaintenance.css">
+
+  </head>
+  
+  <body>
+    <div id="zhao_tenance_content">
+      <div style="float:left;">
+    	<h3 style="margin-top: 10px;margin-left: 3px;">教学计划管理>>选课维护</h3>
+    	<p style="font-size: 0.7rem;margin-top: 25px;margin-left: 3px;">专业【一大串字看不清是什么！！】维护类型【选修课】</p>
+    	<h4 style="margin-top: 12px;margin-left: 3px;">第二步 选择学生</h4>
+    	<p style="margin-top: 12px;margin-left: 15px;">查询条件</p>
+    	<div style="margin-left:25px;margin-top:15px;">
+	    	<label style="font-size: 0.7rem;font-weight: bold;">单位名称</label>
+	    	<select id="zhao_tenance_select">
+		    	<option value="volvo">广播电视大学(120)</option>
+		    	<option value="volvo">广播电视大学(120)</option>
+	    	</select>
+	    	<label style="margin-left: 150px;font-size: 0.7rem;font-weight: bold;">学号</label><input id="zhao_tenance_input" />
+    	</div>
+      </div>
+      <div style="float:right; display:flex;flex-direction:column;margin-top: 20px;margin-right: 20px;">
+        <button id="zhao_tenance_ret_btn">返回</button>
+        <button id="zhao_tenance_sel_btn">查询</button>
+      </div>
+      <div id="zhao_tenance_important">
+      	<div id="zhao_tenance_left">
+      		<label style="font-size: 0.8rem;">共0人</label>
+      		<div id="z_tenance_left_peo"></div>
+      	</div>
+      	<div id="zhao_tenance_center">
+      		<ul>
+      			<li><button class="z_tenance_fourbtn" id="z_tenance_choosebtn">选择</button></li>
+      			<li><button class="z_tenance_fourbtn" id="z_tenance_allchoosebtn">全部选择</button></li>
+      			<li><button class="z_tenance_fourbtn" id="z_tenance_remove">移除</button></li>
+      			<li><button class="z_tenance_fourbtn" id="z_tenance_alremove">全部移除</button></li>
+      		</ul>
+      	</div>
+      	<div id="zhao_tenance_right">
+      		<label style="font-size: 0.8rem;">共0人</label>
+      		<div id="z_tenance_right_peo"></div>
+      	</div>
+      </div>
+      <button id="z_tenance_nextbtn">下一步</button>
+      
+    
+    </div>
+  </body>
+  <script src="js/zhaoMaintenance.js"></script>
+</html>

@@ -1,0 +1,74 @@
+package goshen.education.web;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import goshen.education.domain.Professional;
+import goshen.education.service.ProfessionalService;
+
+@Controller
+public class ProfessionalController {
+	
+	@Autowired
+	private ProfessionalService professionalService;
+	
+	@RequestMapping("/updateProfessional")
+    public String updateProfessional() {
+    	
+//    	System.out.println("-----getProName------- "+professional.getProName()); goshen.education.domain.web.Professional professional
+//    	System.out.println("-------getProCode----- "+professional.getProCode());
+//    	System.out.println("------getXueli------ "+professional.getXueli());
+//    	System.out.println("------getProState------ "+professional.getProState());
+//    	System.out.println("-----getCompany------- "+professional.getCompany());
+		
+		goshen.education.domain.web.Professional professional = new goshen.education.domain.web.Professional();
+		professional.setCompany("haliluya");
+		professional.setProName("thankyoulord");
+    	
+    	
+    	boolean bl = professionalService.updateProfessional(professional);
+    	
+    	System.out.println("------bl------ "+bl);
+    	
+    	return "ok";
+    }
+    
+	@RequestMapping("/del-{id}-pf")
+    public String delProfessional(@PathVariable Long id) {
+    	
+    	System.out.println("-----delProfessional------- "+id);
+    	
+    	professionalService.deleteProfessional(id);
+    	
+    	return "ok";
+   
+    }
+    
+	@RequestMapping("/saveProfessional")
+    public String saveProfessional(Professional professional) {
+    	
+    	System.out.println("-----getProName------- "+professional.getProName());
+    	System.out.println("-------getProCode----- "+professional.getProCode());
+    	System.out.println("------getXueli------ "+professional.getXueli());
+    	System.out.println("------getProState------ "+professional.getProState());
+    	System.out.println("-----getCompany------- "+professional.getCompany());
+    	
+    	
+    	boolean bl = professionalService.professionalSave(professional);
+    	
+    	System.out.println("------bl------ "+bl);
+    	
+    	return "ok";
+    }
+    
+//	@RequestMapping("/greeting")
+//	public String greeting(@RequestParam(value = "name", required = false, defaultValue = "World") String name,
+//			Model model) {
+//		System.out.print("------------------" + name);
+//		model.addAttribute("name", name);
+//		return "greeting";
+//	}
+	
+}

@@ -1,0 +1,9 @@
+package goshen.education.service;
+
+import java.util.List;
+
+import goshen.education.domain.Customer;
+public interface CustomerService {
+	
+	  List<Customer> findByLastNameService(String lastName);
+}

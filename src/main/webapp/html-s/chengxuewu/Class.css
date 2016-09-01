@@ -1,0 +1,68 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+}
+#biankuang{
+	width:60%;
+	height:45%;
+	border:1px solid red;
+	margin: auto;
+	min-width: 700px;
+}
+#biancheng{
+	width: 100%;
+	height: 80%;	
+	cursor: pointer;
+}	
+#biancheng_left{
+width: 90%;
+height: 40%;
+margin: auto;
+margin-top: 16px;
+}
+#biancheng_zhong{
+	font-size:20px;
+	margin-top:30px;
+	margin-left:18px;
+	cursor: pointer;
+}
+#biancheng_zhong1{
+	margin-top:20px;
+	margin-left:29px;	
+}
+#for {
+	cursor: pointer;
+	float: right;
+	position: relative;
+	top: -5px;
+	right: 30px;
+	width: 80px;
+	height: 20px;
+	font-size: 20px;
+}
+#var {
+	width: 150px;
+	height: 20px;
+	border: 1px solid #000000;
+}
+#file_test {
+	float: right;
+	list-style: none;
+	cursor: pointer;
+	line-height: 0px;
+	display: flex;
+}
+#lb {
+	margin-top: 20px;
+	cursor: pointer;
+}
+#biancheng_top{
+	margin-top:20px;
+	margin-left: 29px;
+}

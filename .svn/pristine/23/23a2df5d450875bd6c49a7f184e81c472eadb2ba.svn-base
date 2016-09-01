@@ -1,0 +1,47 @@
+package study.gaosheng.web;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.google.gson.Gson;
+
+import study.gaosheng.domain.Professional;
+import study.gaosheng.service.ProfessionalService;
+
+@RestController
+public class ProfessionalController {
+	
+	@Autowired
+	private ProfessionalService professionalService;
+    
+	@RequestMapping("/hello")
+    public String saveProfessional66(Professional professional) {
+    	
+    	System.out.println("-----hello------- ");
+    	
+    	
+    Gson gson = new Gson();
+    	
+    	
+    	return "hello788";
+    }
+    
+	@RequestMapping("/saveProfessional")
+    public String saveProfessional(Professional professional) {
+    	
+    	System.out.println("-----getProName------- "+professional.getProName());
+    	System.out.println("-------getProCode----- "+professional.getProCode());
+    	System.out.println("------getXueli------ "+professional.getXueli());
+    	System.out.println("------getProState------ "+professional.getProState());
+    	System.out.println("-----getCompany------- "+professional.getCompany());
+    	
+    	
+    	boolean bl = professionalService.professionalSave(professional);
+    	
+    	System.out.println("------bl------ "+bl);
+    	
+    	return "ok";
+    }
+    
+}

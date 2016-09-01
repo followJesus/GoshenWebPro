@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>新建专业</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="/css/professional.css" type="text/css"
+	media="all" />
+</head>
+<body>
+
+
+	<div th:replace="layout/layout :: #header"></div>
+
+	<div id="div">
+		<div id="div_top">
+			<label id="label_top">专业管理>>新建专业</label>
+			<button id="button_top" type="button" value="返回">返回</button>
+		</div>
+		<div id="div_bottm">
+			<label id="label_top">专业信息</label>
+			<form action="#" th:action="@{/saveProfessional}" th:object="${professional}" method="post">
+				<div id="div_nei">
+					<div id="one">
+						<div id="div_input1">
+							<label>名&nbsp;称</label>
+							
+							
+							<input id="input_1" type="text" placeholder="菜单名称" name="proName" th:field="*{proName}" />
+							
+						<!-- 	<span th:if="${#fields.hasErrors('proName')}"  th:errors="*{proName}"   th:text = "#{${#fields.errors('proName')[0]}}" >出错啦</span> -->  
+						
+						
+						</div>
+						<div id="div_input2">
+							<label>编&nbsp;&nbsp;码</label>
+							<input type="text" name="proCode" value="James Carrot" id="input_2" th:value="${procode}" />
+						</div>
+					</div>
+					<div id="two">
+						<div id="two_1">
+							<label>教育类型</label> <select name="xueli"><option>非学历</option>
+								<option>学历</option></select> <select style="width: 20%" name="xueke">
+								<option>培训班</option>
+								<option>学历</option>
+							</select> <select style="width: 20%" name="hangye">
+								<option>燃气</option>
+								<option>学历</option>
+							</select>
+						</div>
+						<div id="two_2">
+
+							状 &nbsp;态<select name="proState">
+								<option>已使用</option>
+								<option>已完成</option>
+								<option>在建</option>
+								<option>拟建</option>
+								<option>未建</option>
+							</select>
+						</div>
+					</div>
+					<div id="three">
+						<label>开发单位</label><input style="width: 20%" type="text"
+							name="company" />
+					</div>
+					<button
+						style="width: 50px; height: 25px; float: right; margin-right: -5%; margin-bottom: 1%"
+						type="submit">保存</button>
+				</div>
+			</form>
+
+		</div>
+
+	</div>
+
+	<div th:replace="layout/layout :: #footer"></div>
+
+
+</body>
+</html>

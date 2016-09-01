@@ -1,0 +1,198 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#yqh_kzy {
+	width: 90%;
+	height: 100%;
+	border: #000000 solid 2px;
+	margin: auto;
+}
+
+#shang {
+	margin-top: 10px;
+	margin-left: 6px;
+	font-weight: bold;
+}
+
+#shang_yi {
+	width: 90%;
+	height: 7%;
+}
+
+#shang_yi_title {
+	font-size: 0.8rem;
+	margin-left: 6px;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+#shang_yi_but {
+	height: 25px;
+	float: right;
+	margin-right: 50px;
+	cursor: pointer; /*小手标志 */
+	border: #000000 solid 0.8px;
+}
+
+#shang_er {
+	font-size: 0.2rem;
+	margin-left: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#shang_san {
+	width: 96%;
+	height: 20%;
+	margin: auto;
+	border: #000000 solid 0.8px;
+}
+
+#title_select1 {
+	width: 100%;
+	height: 15%;
+	margin-top: 10px;
+	font-size: 0.2rem;
+	font-weight: bold;
+}
+
+.btn_select {
+	width: 10%;
+	height: 30px;
+	border: #000000 solid 0.8px;
+}
+
+.btn_select2 {
+	width: 40%;
+	height: 30px;
+	border: #000000 solid 0.8px;
+}
+
+#title_select2 {
+	width: 100%;
+	height: 15%;
+	margin-top: 28px;
+	font-size: 0.2rem;
+	font-weight: bold;
+}
+
+.btn_select3 {
+	width: 40%;
+	height: 30px;
+	border: #000000 solid 0.8px;
+}
+
+#shang_san_but {
+	width: 42px;
+	height: 25px;
+	float: right;
+	margin-right: 27px;
+	cursor: pointer;
+	height: 25px; /*小手标志 */
+	border: #000000 solid 0.8px;
+}
+
+#biao {
+	width: 95%;
+	height: 62%;
+	border: 2px solid #00ff00;
+	margin: auto;
+}
+
+#kuang {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+ margin-top:20px;
+}
+#center {
+	font-size: 0.2rem;
+	margin-left: 10px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+
+#center_biao {
+	width: 95%;
+	height: 15%;
+	margin: auto;
+	border-top: 2px solid #444444;
+	margin: auto;
+}
+
+#center_biao ul {
+	width: 100%;
+	height:35%;
+	display: flex;
+	list-style: none;
+}
+
+#center_biao ul li {
+	text-align: center;
+	border: 1px solid #444444;
+}
+#xia {
+	font-size: 0.2rem;
+	margin-left: 10px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+#xia_biao {
+	width: 95%;
+	height: 15%;
+	border-top: 2px solid #444444;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#xia_biao ul {
+	width: 100%;
+	height:35%;
+	display: flex;
+	list-style: none;
+}
+
+#xia_biao ul li {
+	text-align: center;
+	border: 1px solid #444444;
+}
+#li_but{
+	width:50%;
+	height:70%;
+	margin-top:5px;
+	border: 1px solid #444444;
+}
+
+/*根据屏幕物理像素比例查询样式*/
+/* @media only screen and (-moz-min-device-pixel-ratio: 2), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2)
+{
+	#yqh_kzy {
+		width: 16rem;
+		font-size:2rem;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	#yqh_kzy {
+		width: 20rem;
+	}
+	body {
+		width: 100%;
+		height: 100%;
+		background-color: #008900;
+	}
+} 
+

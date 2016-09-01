@@ -1,0 +1,16 @@
+package study.gaosheng.service;
+
+import study.gaosheng.domain.Professional;
+/**
+ * @author cunli
+ * 专业信息 业务接口
+ */
+public interface ProfessionalService {
+	
+	/**
+     * @param professional 专业信心
+     * @return 保存专业信息
+     */
+    boolean professionalSave(Professional professional);
+    
+}

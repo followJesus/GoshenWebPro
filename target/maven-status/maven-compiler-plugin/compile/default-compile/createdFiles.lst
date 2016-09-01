@@ -1,0 +1,7 @@
+goshen/education/domain/Professional.class
+goshen/education/web/ProfessionalController.class
+goshen/education/Application.class
+goshen/education/web/HelloController.class
+goshen/education/service/ProfessionalService.class
+goshen/education/service/ProfessionalServiceImpl.class
+goshen/education/repository/ProfessionalRepository.class

@@ -1,0 +1,122 @@
+#liyong_bian {
+	position: relative;
+	width: 70%;
+	height: 99%;
+	margin: 0 auto;
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	display: flex;
+	flex-direction: column;
+	min-width: 960px;
+}
+
+#yihang {
+	flex: 1;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom-color: #000000;
+}
+
+#erhang {
+	flex: 1;
+}
+
+#liyong_xinjian {
+	position: relative;
+	width: 50px;
+	height: 30px;
+	left: 1%;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	outline: none;
+	margin-top: 30px;
+	font-weight: bold;
+	  cursor: pointer;
+}
+
+#liyong_shanchu {
+	position: relative;
+	width: 50px;
+	height: 30px;
+	left: 1%;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	outline: none;
+	margin-top: 30px;
+	font-weight: bold;
+	  cursor: pointer;
+}
+
+#sanhang {
+	flex: 7;
+}
+
+#liyong_title ul{
+	width: 97%;
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0 auto;
+}
+
+#liyong_title ul li{
+	text-align: center;
+     line-height: 50px;
+     font-weight: bold;
+     border-width: 1.3px;
+     border-style: solid;
+     border-color: #dddddd;
+}
+
+#xianzhe{
+    position:absolute;
+	float:left;
+	margin-top: 18px;
+	margin-left: -130px;
+}
+
+#liyong_title_xia{
+	width: 100%;
+	height: 88%;
+	margin: 0 auto;
+}
+
+#xia_tianjia ul{
+	width: 97%;
+	height: 15%;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0 auto;
+}
+
+#xia_tianjia ul li{
+     line-height: 40px;
+     font-weight: bold;
+     border-width: 1.3px;
+     border-style: solid;
+     border-color: #dddddd;
+}
+
+.xia_button{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	outline: none;
+	font-weight: bold;
+	   cursor: pointer;
+}
+
+#xianzhe1{
+	float:left;
+	margin-top: 15px;
+	margin-left:20%;
+	margin-right:20%;
+}
+

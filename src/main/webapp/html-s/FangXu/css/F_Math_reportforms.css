@@ -1,0 +1,148 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body{
+	min-width: 1200px;
+}
+
+#fang_setting {
+	width: 70%;
+	height: 100%;
+	border: 2px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+}
+
+#fang_titleone {
+	position: relative;
+	left: 1%;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+#fang_titletwo {
+	position: relative;
+	left: 3%;
+	font-size: 1.5rem;
+}
+
+#fang_box {
+	width: 90%;
+	height: 100px;
+	line-height: 100px;
+	margin: auto;
+	border: 1px;
+	border-color: #bbbbbb;
+	border-style:solid; 
+}
+.fang_float{
+	float: left;
+	list-style: none;
+}
+#fang_font_one{
+	position: relative;
+	left: 5%;
+	font-weight: bold;
+}
+#fang_font_two{
+	position: relative;
+	left: 15%;
+	font-weight: bold;
+}
+#fang_text_one{
+	width:200px;
+	height:20px;
+	position:relative;
+	left:25%;
+	border: 1px;
+	border-radius:2px 2px;
+	border-color: #bbbbbb;
+	border-style: solid;
+}
+#fang_text_two{
+		width:200px;
+	height:20px;
+	position:relative;
+	left:70%;
+	border: 1px;
+	border-radius:2px 2px;
+	border-color: #bbbbbb;
+	border-style: solid;
+}
+#fang_button_one{
+	width:40px;
+	height:25px;
+	position:relative;
+	left:20%;
+	border: 1px;
+	border-color: #bbbbbb;
+	border-radius:2px 2px;
+	border-style: solid;
+}
+#fang_button_two{
+	width:40px;
+	height:25px;
+	position:relative;
+	left:20%;
+	border: 1px;
+	border-color: #bbbbbb;
+	border-radius:2px 2px;
+	border-style: solid;
+}
+#fang_rim{
+	border: 2px;
+	border-color: #bbbbbb;
+	border-style: solid; 
+	width: 85%;
+	 height: 95%;
+	 margin: auto;
+	 position: relative; 
+	 top: 5px;
+}
+#fang_rim_one{
+	width:100%; 
+	height: 15%;
+	margin: auto;
+}
+#fang_rim_two{
+	width: 100%;
+	height: 78%;
+	border-bottom:1px solid #bbbbbb;
+	border-top:1px solid #bbbbbb;
+	background-color: #aaaaaa;
+	margin: auto;
+	overflow-y: scroll;
+}
+#fang_rim_three{
+	width: 100%;
+	height:7%;
+	margin: auto;
+}
+#FX_textbox{
+	border:1px solid #bbbbbb;
+	outline:none;
+	padding:2px;
+	width: 40px;
+	height: 18px;
+}
+table{
+	width: 98%;
+	height: 110%;
+}
+tr{
+	width: 100%;
+	height: 100%;
+}
+td{
+	font-weight:bold;
+	border-right: 1px solid #bbbbbb;
+}

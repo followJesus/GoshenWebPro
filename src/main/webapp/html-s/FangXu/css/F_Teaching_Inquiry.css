@@ -1,0 +1,342 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body{
+	min-width: 1050px;
+	min-height: 550px;
+}
+/* 最大文本框 */
+#F_templet {
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	border: 2px;
+	border-style: solid;
+	display: flex;
+	flex-direction: column;
+}
+/*上边 */
+#F_one_templet {
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+}
+/* 上边标题 */
+#F_one_content {
+	flex: 1;
+}
+/* 教学计划管理字样 */
+#f_title {
+	font-size: 2rem;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+}
+/* 上边中间内容 */
+#F_two_content {
+	width: 95%;
+	margin: auto;
+	border: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+}
+/*查询条件字样 */
+#F_Inquiry {
+	flex: 1;
+	font-size: 1.5rem;
+	font-weight: bold;
+	position: relative;
+	left: 2%;
+	line-height: 50px;
+	position: relative;
+	line-height: 50px;
+}
+/* 选择框 */
+#F_select {
+	flex: 3;
+	display: flex;
+	flex-direction: row;
+}
+/* ul  样式选择 */
+#F_ul_mould {
+	width: 90%;
+	height: 50%;
+	margin: auto;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	border: 1px;
+	border-style: solid;
+	border-color: #bbbbbb;
+}
+/* 专业/字体 */
+#F_gauge_outfit_a {
+	flex: 1;
+	font-weight: bold;
+	margin: auto;
+	font-weight: bold;
+}
+/* 非学历选框 */
+#F_select_box_a {
+	flex: 1;
+	margin: auto;
+}
+/* 非学历边框 大小*/
+#F_width_a {
+	border: 1px;
+	outline: none;
+	border-radius: 2px 2px;
+	border-style: solid;
+	border-color: #bbbbbb;
+}
+/* 化学分析工历选框 */
+#F_select_box_b {
+	flex: 2;
+	position: relative;
+	left: 1%;
+	margin: auto;
+}
+/* 化学分析工历边框大小 */
+#F_width_b {
+	border: 1px;
+	outline: none;
+	border-radius: 2px 2px;
+	border-style: solid;
+	border-color: #bbbbbb;
+}
+/*教学计划编码/字体 */
+#F_gauge_outfit_b {
+	flex: 3;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+}
+/* 输入文本框 */
+#F_text {
+	flex: 2;
+	margin: auto;
+}
+/* 查询按钮 */
+#F_button {flex：1;
+	margin: auto;
+	border-radius: 2px 2px;
+	cursor: pointer;
+}
+/* 文本框大小 */
+#F_text_box {
+	width: 90%;
+	height: 25px;
+	border: 1px;
+	outline: none;
+	border-radius: 2px 2px;
+	border-style: inset;
+	border-color: #dddddd;
+}
+/* 按钮大小 */
+#F_option {
+	border: 1px;
+	border-style: inset;
+	border-color: #dddddd;
+	width: 40px;
+	height: 20px;
+	width: 40px;
+}
+/* 上边最低的按钮 */
+#F_three_content {
+	flex: 1;
+	line-height: 50px;
+}
+/* 按钮大小 */
+#F_new_built {
+	background-color: #dddddd;
+	width: 5%;
+	height: 30%;
+	position: relative;
+	left: 3%;
+	border: 1px;
+	border-radius: 2px 2px;
+	border-style: inset;
+	border-color: #bbbbbb;
+	cursor: pointer;
+}
+
+/*下边 */
+#F_two_templet {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+}
+/* 分割线 */
+#F_cut_off_rule {
+	border: 4px;
+	margin: auto;
+	border-style: solid;
+	width: 90%;
+	border-radius: 10px 10px;
+	border-style: solid;
+}
+/* 文本框标题*/
+#F_titleboxone {
+	flex: 1;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#F_head {
+	width: 100%;
+	height: 100px;
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	border-left:1px;
+	border-right:1px;
+	border-style: solid;
+	border-color: #bbbbbb;
+}
+
+#F_subject_one {
+	width: 100%;
+	flex: 2;
+	margin: auto;
+	text-align: center;
+	border-style: solid;
+}
+
+#F_subject_two {
+	width: 100%;
+	flex: 1;
+	margin: auto;
+	text-align: center;
+}
+
+#F_subject_three {
+	width: 100%;
+	flex: 3;
+	margin: auto;
+	text-align: center;
+}
+
+#F_example {
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	border:1px;
+	border-style: solid;
+	border-color: #bbbbbb;
+	flex: 1;
+	display:flex;
+	flex-direction: row;
+}
+#F_record_one{
+	width:100%;
+	height:50%;
+	margin:auto;
+	flex:2;
+	text-align:center;
+	line-height:30px;
+}
+#F_record_two{
+	width:100%;
+	height:50%;
+	margin:auto;
+	flex:1;
+}
+#f_record_two{
+	width:50%;
+	height:100%;
+	margin:auto;
+	background-color:#707270;
+}
+#F_record_three{
+	width:100%;
+	height:100%;
+	flex:3;
+}
+.F_module_button{
+	width: 60px;
+	height: 35%;
+	float: left;
+	position: relative;
+	top: 35%;
+	left: 1%;
+	border-radius: 2px 2px;
+	border-style: solid;
+}
+.F_module_b{
+	float: right;
+	width: 30px;
+	height: 35%;
+	position: relative;
+	top: 35%;
+}
+#f_maintenancetwo{
+	position: relative;
+	left: 2%;
+}
+#f_maintenancethree{
+position: relative;
+	left: 3%;
+}
+#F_info{
+	float: left;
+	position: relative;
+	left: 4%;
+}
+#f_maintenancefour{
+	position: relative;
+	right: 3%;
+}
+#f_maintenancefive{
+	position: relative;
+	right: 2%;
+}
+/* 信息框 */
+#F_titleboxtwo {
+	flex: 1;
+	margin: auto;
+	width: 95%;
+}
+
+#F_present {
+	width:30%;
+	height:90%;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.F_LI{
+	flex:1;
+	display:flex;
+	flex-direction: row;
+}
+#F_one {
+	width: 20px;
+	height: 20px;
+	background-color: #707270;
+}
+
+#F_two {
+	background-color: #6b6b69;
+	width: 20px;
+	height: 20px;
+}
+
+#F_three {
+	background-color: #5b5d5c;
+	width: 20px;
+	height: 20px;
+}

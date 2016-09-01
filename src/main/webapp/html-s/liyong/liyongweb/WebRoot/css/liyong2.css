@@ -1,0 +1,119 @@
+#liyong_bian {
+	position: relative;
+	width:70%;
+	height: 99%;
+	margin: 0 auto;
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	display: flex;
+	flex-direction: column;
+    min-width: 900px;
+}
+
+#liyong_tou {
+	flex: 1;
+}
+#liyong_fanhui{
+	position:relative;
+	float: right;
+	width: 50px;
+	height: 30px;
+     right: 2%;
+	 text-align: center;
+	 line-height:30px;
+	 border-radius: 5px;
+	 outline: none;
+	  margin-top: 33px;
+	  font-weight: bold;
+	    cursor: pointer;
+}
+
+#liyong_concant {
+	flex: 5;
+}
+
+#concant{
+	position:relative;
+	width: 98%;
+	height: 94%;
+	margin: 0 auto;
+    border-color: #dddddd;
+	border-width: 1px;
+	border-style: solid;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+#yihang{
+	margin-left: 15px;
+	font-weight: bold;
+	flex: 1;
+	font-size: 1.4rem;
+}
+
+#erhang{
+	flex:1;
+	margin-left: 25px;
+	font-weight: bold;
+}
+
+#sanhang{
+	flex:1;
+	margin-left: 25px;
+	font-weight: bold;
+}
+
+#sihang{
+	flex:1;
+	margin-left: 25px;
+	font-weight: bold;
+}
+#wuhang{
+	flex:1;
+	margin-left: 25px;
+	font-weight: bold;
+}
+
+#liuhang{
+	margin-left: 25px;
+	font-weight: bold;
+	flex: 1;
+}
+
+#liyong_baocun{
+	position:relative;
+	float: right;
+	width: 50px;
+	height: 30px;
+     right: 2%;
+	 text-align: center;
+	 line-height:30px;
+	 border-radius: 5px;
+	 outline: none;
+	 margin-top: 29px;
+	  font-weight: bold;
+	    cursor: pointer;
+}
+
+
+
+#liyong_foot {
+	flex: 1.5;
+	min-width: 1200px;
+}
+.guize{
+	position:relative;
+	margin-left: 30px;
+     font-weight: bold;
+    margin-top: 5px;
+}
+
+.shuru{
+	border-width: 2px;
+	border-radius: 2px;
+	border-style: solid;
+	border-color: #dddddd;
+	outline: none;
+}

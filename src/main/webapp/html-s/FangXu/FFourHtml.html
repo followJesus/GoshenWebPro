@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FFourHtml.html</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta charset="UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+<link rel="stylesheet" type="text/css"
+	href="css/F_Examine_reportforms.css">
+
+</head>
+
+<body>
+	<div id="fangx_setting">
+		<div style="flex:1;">
+			<br /> <label id="fangx_titleone">考次情况报表</label> <br /> <br /> <br>
+			<label id="fangx_titletwo">查询条件</label>
+			<div id="fangx_box">
+				<label class="fangx_float" id="fangx_font_one">考点</label>
+				<ul class="fangx_float">
+					<li><select id="fangx_text_one">
+							<option>全部</option>
+							<option>全部</option>
+							<option>全部</option>
+					</select></li>
+				</ul>
+				<label class="fangx_float" id="fangx_font_two">考试日期</label>
+				<ul class="fangx_float">
+					<li><input class="fangx_textdate" type="text" /><label
+						id="fangx_zhi">至</label><input class="fangx_textdate" type="text" />
+					</li>
+				</ul>
+				<input id="fangx_button_one" type="button" value="查询" /> <input
+					id="fangx_button_two" type="button" value="导出" />
+			</div>
+
+
+		</div>
+		<div style="flex:3;">
+			<div id="fangx_rim">
+				<div id="fangx_rimone">
+				<table>
+				<tr>
+				<td style="width: 20%;" rowspan="2">考点</td>
+				<td style="width: 35%;" rowspan="2">学校</td>
+				<td style="width: 15%;" rowspan="2">考试日期</td>
+				<td style="width: 15%;" rowspan="2">开始时间</td>
+				<td style="width: 10%;" rowspan="2">结束时间</td>
+				<td style="width: 10%;" rowspan="2">预约人数</td>
+				</tr>
+				</table>
+				</div>
+				<div id="fangx_rimtwo">
+				<div>动态添加</div>
+				</div>
+				<div id="fangx_rimthree">
+				<div style="float: left;padding: 2px;">
+						<img src="images/left.png"> <img src="images/leftBody.png">
+						<img src="images/rightBody.png"> <img src="images/right.png">
+						<img src="images/refurbish.png"> 第<input id="fangx_textbox"
+							type="number" />/<label>17</label>页
+					</div>
+					<div style="float: right;padding: 3px;">共计3233条数据</div>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

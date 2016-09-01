@@ -1,0 +1,52 @@
+* {
+	font-family: Noto Sans Regular,sans-serif, Microsoft YaHei, arial, helvetica, clean;
+	margin: 0;
+	padding: 0;
+}
+body{
+	width:75rem;
+	margin:auto;
+}
+.clear {
+	clear: both;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.tleft {
+	text-align: left;
+}
+
+.tright {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+
+
+
+
+
+
+#header{
+	text-align: center;
+	padding-top:2rem;
+	padding-bottom:2rem;
+	font-size:1.5rem;
+}
+
+#footer{
+	text-align: center;
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+

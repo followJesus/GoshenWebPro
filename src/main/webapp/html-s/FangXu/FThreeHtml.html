@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FThreeHtml.html</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta charset="UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+<link rel="stylesheet" type="text/css" href="css/F_Math_reportforms.css">
+</head>
+
+<body>
+	<div id="fang_setting">
+		<div style="flex:1;">
+			<br> <label id="fang_titleone">教学计划情况报表</label> <br> <br>
+			<br> <label id="fang_titletwo">查询条件</label>
+			<div id="fang_box">
+				<label class="fang_float" id="fang_font_one">专业</label>
+				<ul class="fang_float">
+					<li><select id="fang_text_one">
+							<option>全部</option>
+							<option>全部</option>
+							<option>全部</option>
+					</select></li>
+				</ul>
+				<label class="fang_float" id="fang_font_two">教学计划</label>
+				<ul class="fang_float">
+					<li><select id="fang_text_two">
+							<option>全部</option>
+							<option>全部</option>
+							<option>全部</option>
+					</select></li>
+				</ul>
+				<input id="fang_button_one" type="button" value="查询" /> <input
+					id="fang_button_two" type="button" value="导出" />
+			</div>
+		</div>
+		<div style="flex:3;">
+			<div id="fang_rim">
+				<div id="fang_rim_one">
+				<table>
+				<tr>
+				<td style="width: 15%;" rowspan="2">专业</td>
+				<td style="width: 12%;" rowspan="2">教学计划</td>
+				<td style="width: 9%;" rowspan="2">课程编码</td>
+				<td style="width: 9%;" rowspan="2">课程名称</td>
+				<td style="width: 9%;" rowspan="2">开课日期</td>
+				<td style="width: 9%;" rowspan="2">结课日期</td>
+				<td style="width: 9%;" rowspan="2">课程性质</td>
+				<td style="width: 9%;" rowspan="2">所在模块</td>
+				<td style="width: 6%;" rowspan="2">学分</td>
+				<td style="width: 8%;" colspan="1">最终成功</td>
+				<td style="width: 10%;" colspan="1">课程状态</td>
+				</tr>
+				</table>
+				
+				</div>
+				<div id="fang_rim_two">
+				<div>动态添加</div>
+				</div>
+				<div id="fang_rim_three">
+					<div style="float: left;padding: 2px;">
+						<img src="images/left.png"> <img src="images/leftBody.png">
+						<img src="images/rightBody.png"> <img src="images/right.png">
+						<img src="images/refurbish.png"> 第<input id="FX_textbox"
+							type="number" />/<label>91</label>页
+					</div>
+					<div style="float: right;padding: 3px;">共计1809条数据</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

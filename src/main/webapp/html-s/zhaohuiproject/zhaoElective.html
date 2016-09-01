@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>zhaoElective.html</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="css/zhaoElective.css">
+
+</head>
+
+<body>
+	<div id="zhao_elective_content">
+		<div style="float:left;">
+			<h3 style="margin-top: 10px; margin-left: 3px; font-weight: bold; width:auto; height:auto;">跨专业选课管理</h3>
+			<h4 style="margin-top:35px; margin-left:3px;">第二步 选择学生</h4>
+			<p style="margin-left: 10px;margin-top: 15px;">查询条件</p>
+			<div style="margin-left: 30px;margin-top: 15px;">
+				<label style="font-size: 0.7rem;font-weight: bold;">单位名称</label>
+				<select id="zhao_elective_select">
+					<option value="volvo">广播电视大学(120)</option>
+					<option value="saab">sssss</option>
+				</select>
+				<label style="margin-left: 150px;font-size: 0.7rem;font-weight: bold;">学号</label>
+				<input id="zhao_elective_id_input" />
+			</div>
+			
+		</div>
+		<div style="float:right;display: flex;flex-direction:column;">
+			<button id="zhao_elective_return_btn">返回</button>
+			<button id="zhao_elective_ok_btn">确定</button>
+			<button id="zhao_elective_select_btn">查询</button>
+		</div>
+
+		<div id="zhao_elective_important_c">
+			<div id="zhao_elective_important_left">
+				<label style="font-size: 0.8rem;">共0人</label>
+				<div id="zhao_elective_left_people"></div>
+			</div>
+			<div id="zhao_elective_important_center">
+				<ul>
+					<li><button class="zhao_elective_four_btn" id="zhao_elective_choose_btn">选择</button></li>
+					<li><button class="zhao_elective_four_btn" id="zhao_elective_allchoose_btn">全部选择</button></li>
+					<li><button class="zhao_elective_four_btn" id="zhao_elective_remove_btn">移除</button></li>
+					<li><button class="zhao_elective_four_btn" id="zhao_elective_allremove_btn">全部移除</button></li>
+				</ul>
+			</div>
+			<div id="zhao_elective_important_right">
+				<label style="font-size: 0.8rem;">共0人</label>
+				<div id="zhao_elective_right_people"></div>
+			</div>
+		</div>
+
+
+	</div>
+</body>
+<script src="js/zhaoElective.js"></script>
+</html>
